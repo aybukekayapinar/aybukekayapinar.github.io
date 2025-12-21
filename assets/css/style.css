@@ -967,7 +967,10 @@ main {
   100% { transform: scale(1); }
 }
 
-.project-item > a { width: 100%; }
+.project-item > a {
+  width: 100%;
+  cursor: zoom-in;
+}
 
 .project-img {
   position: relative;
@@ -1041,6 +1044,37 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
+
+.portfolio-modal {
+  background: var(--eerie-black-2);
+  position: relative;
+  padding: 16px;
+  border: 1px solid var(--jet);
+  border-radius: 16px;
+  box-shadow: var(--shadow-5);
+  width: min(92vw, 980px);
+  transform: scale(1.08);
+  opacity: 0;
+  transition: var(--transition-1);
+}
+
+.modal-container.active .portfolio-modal {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.portfolio-modal-media { margin: 0; }
+
+.portfolio-modal-img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 12px;
+  display: block;
+}
+
+body.no-scroll { overflow: hidden; }
 
 
 

@@ -63,23 +63,23 @@ const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
 const selectValue = document.querySelector("[data-selecct-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
-
-select.addEventListener("click", function () { elementToggleFunc(this); });
-
-// add event in all select items
-for (let i = 0; i < selectItems.length; i++) {
-  selectItems[i].addEventListener("click", function () {
-
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
-    elementToggleFunc(select);
-    filterFunc(selectedValue);
-
-  });
-}
-
-// filter variables
 const filterItems = document.querySelectorAll("[data-filter-item]");
+
+if (select && selectItems.length && selectValue && filterItems.length) {
+  select.addEventListener("click", function () { elementToggleFunc(this); });
+
+  // add event in all select items
+  for (let i = 0; i < selectItems.length; i++) {
+    selectItems[i].addEventListener("click", function () {
+
+      let selectedValue = this.innerText.toLowerCase();
+      selectValue.innerText = this.innerText;
+      elementToggleFunc(select);
+      filterFunc(selectedValue);
+
+    });
+  }
+}
 
 const filterFunc = function (selectedValue) {
 
@@ -98,22 +98,76 @@ const filterFunc = function (selectedValue) {
 }
 
 // add event in all filter button items for large screen
-let lastClickedBtn = filterBtn[0];
+if (filterBtn.length && selectValue && filterItems.length) {
+  let lastClickedBtn = filterBtn[0];
 
-for (let i = 0; i < filterBtn.length; i++) {
+  for (let i = 0; i < filterBtn.length; i++) {
 
-  filterBtn[i].addEventListener("click", function () {
+    filterBtn[i].addEventListener("click", function () {
 
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
-    filterFunc(selectedValue);
+      let selectedValue = this.innerText.toLowerCase();
+      selectValue.innerText = this.innerText;
+      filterFunc(selectedValue);
 
-    lastClickedBtn.classList.remove("active");
-    this.classList.add("active");
-    lastClickedBtn = this;
+      lastClickedBtn.classList.remove("active");
+      this.classList.add("active");
+      lastClickedBtn = this;
 
+    });
+
+  }
+}
+
+
+// portfolio lightbox variables
+const portfolioItems = document.querySelectorAll("[data-portfolio-item]");
+const portfolioModal = document.querySelector("[data-portfolio-modal]");
+const portfolioModalImg = document.querySelector("[data-portfolio-modal-img]");
+const portfolioModalClose = document.querySelector("[data-portfolio-close]");
+const portfolioOverlay = document.querySelector("[data-portfolio-overlay]");
+
+const closePortfolioModal = function () {
+  if (!portfolioModal || !portfolioOverlay || !portfolioModalImg) {
+    return;
+  }
+
+  portfolioModal.classList.remove("active");
+  portfolioOverlay.classList.remove("active");
+  portfolioModalImg.src = "";
+  portfolioModalImg.alt = "";
+  document.body.classList.remove("no-scroll");
+}
+
+if (portfolioItems.length && portfolioModal && portfolioModalImg && portfolioModalClose && portfolioOverlay) {
+  const openPortfolioModal = function (event) {
+    event.preventDefault();
+
+    const targetImg = this.querySelector("img");
+    const fullSrc = this.getAttribute("href") || targetImg?.src;
+
+    if (!fullSrc) {
+      return;
+    }
+
+    portfolioModalImg.src = fullSrc;
+    portfolioModalImg.alt = targetImg?.alt || "Portfolio image";
+    portfolioModal.classList.add("active");
+    portfolioOverlay.classList.add("active");
+    document.body.classList.add("no-scroll");
+  }
+
+  for (let i = 0; i < portfolioItems.length; i++) {
+    portfolioItems[i].addEventListener("click", openPortfolioModal);
+  }
+
+  portfolioModalClose.addEventListener("click", closePortfolioModal);
+  portfolioOverlay.addEventListener("click", closePortfolioModal);
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape" && portfolioModal.classList.contains("active")) {
+      closePortfolioModal();
+    }
   });
-
 }
 
 
