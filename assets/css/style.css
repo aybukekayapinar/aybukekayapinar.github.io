@@ -785,6 +785,52 @@ main {
  * education and experience 
  */
 
+.download-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.download-btn {
+  position: relative;
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--jet);
+  background: var(--border-gradient-onyx);
+  color: var(--white-2);
+  font-family: var(--ff-poppins);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-500);
+  text-align: center;
+  box-shadow: var(--shadow-1);
+  transition: var(--transition-1);
+  z-index: 1;
+}
+
+.download-btn::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background: var(--bg-gradient-jet);
+  transition: var(--transition-1);
+  z-index: -1;
+}
+
+.download-btn:hover,
+.download-btn:focus {
+  color: var(--white-1);
+  border-color: var(--vegas-gold);
+  transform: translateY(-1px);
+}
+
+.download-btn:hover::before,
+.download-btn:focus::before {
+  background: var(--bg-gradient-yellow-2);
+}
+
 .timeline { margin-bottom: 30px; }
 
 .timeline .title-wrapper {
@@ -1536,6 +1582,17 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
    * #RESUME
    */
+
+  .download-btns {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .download-btn {
+    width: auto;
+    min-width: 250px;
+  }
 
   .timeline-list { margin-left: 65px; }
 
