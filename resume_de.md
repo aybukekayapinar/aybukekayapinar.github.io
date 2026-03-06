@@ -20,7 +20,7 @@ Masterstudentin im Bereich International Management mit praktischer Erfahrung in
 
 ## Berufserfahrung
 
-### Marketing- & Business-Development-Thesis-Studentin | Stockert GmbH <span class="spacer"></span>Sep 2025 – Feb 2026
+### Marketing & Business Development Thesis Studentin | Stockert GmbH <span class="spacer"></span>Sep 2025 – Feb 2026
 *Freiburg, Deutschland*<span class="spacer"></span> B2B-Marketing | UX & Website-Optimierung | Marktforschung | Projektmanagement
 
 - Leitete einen Relaunch der WordPress-Website auf Basis angewandter UX-Forschung im Rahmen der Abschlussarbeit, einschließlich Informationsarchitektur, Navigationsfluss und Inhaltsstruktur, um Benutzerfreundlichkeit, SEO-Performance und Lead-Generierung in einem B2B-Medizintechnik-Umfeld zu verbessern.
