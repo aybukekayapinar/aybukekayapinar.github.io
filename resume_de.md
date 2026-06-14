@@ -16,29 +16,33 @@
 
 ## Profil
 
-Masterstudentin im Bereich International Management mit praktischer Erfahrung in B2B-Marketing, Business Development und UX-getriebener Website-Optimierung in den Bereichen Medizintechnik, IT-Beratung und Finanzdienstleistungen. Erfahren darin, Marktforschung und Zielgruppenanalysen in zielgerichtete Botschaften, Lead-Generierungsinitiativen und die Umsetzung von Kampagnen zu übersetzen. Erfahrung in der Koordination funktionsübergreifender Projekte, der Organisation von Messen und der Abstimmung mit Stakeholdern, um Projekte termingerecht umzusetzen. Fließend in Englisch und Türkisch, mit Deutschkenntnissen auf B2-Niveau.
+M.Sc.-Absolvent in International Management mit praktischer Erfahrung im B2B-Marketing, Social-Media-Strategie, CRM-gestütztem E-Mail-Marketing und digitaler Content-Erstellung in den Bereichen Forschung, Medizintechnik, IT-Beratung und Finanzdienstleistungen. Fundierte Kenntnisse in der Content-Planung, zielgruppenorientierter Kommunikation, WordPress-Content-Management, E-Mail-Kampagnen und der Produktion von Kurzvideos.
 
 ## Berufserfahrung
+### Werkstudentin Digital Marketing & Social Media | Greiff Research Institut GmbH <span class="spacer"></span> Mai 2026 – heute
+*Freiburg, Deutschland*<span class="spacer"></span> Digital Marketing | Social Media Management | Content-Strategie | CRM-gestütztes E-Mail-Marketing
+
+- Eigenständige Betreuung der Social-Media-Kanäle auf Instagram, LinkedIn und TikTok, einschließlich Themenrecherche, Content-Planung, Skripterstellung, Bearbeitung, Veröffentlichung, Community-Monitoring und Performance-Tracking.
+- Durchführung wöchentlicher E-Mail-Marketing-Kampagnen über HubSpot unter Einsatz CRM-gestützter Kommunikation, um das Zielgruppen-Engagement zu stärken und den regelmäßigen Kontakt mit wichtigen Stakeholder-Gruppen aufrechtzuerhalten.
+- Unterstützung des digitalen Content-Managements durch WordPress-Websitepflege und tägliche redaktionelle Content-Erstellung, einschließlich der Vorbereitung täglicher Briefings für zentrale Zielgruppen.
 
 ### Marketing & Business Development Thesis Studentin | Stockert GmbH <span class="spacer"></span>Sep 2025 – Feb 2026
 *Freiburg, Deutschland*<span class="spacer"></span> B2B-Marketing | UX & Website-Optimierung | Marktforschung | Projektmanagement
 
-- Leitete einen Relaunch der WordPress-Website auf Basis angewandter UX-Forschung im Rahmen der Abschlussarbeit, einschließlich Informationsarchitektur, Navigationsfluss und Inhaltsstruktur, um Benutzerfreundlichkeit, SEO-Performance und Lead-Generierung in einem B2B-Medizintechnik-Umfeld zu verbessern.
+- Verantwortung für den Relaunch der WordPress-Website auf Basis angewandter UX-Forschung im Rahmen der Abschlussarbeit, einschließlich Informationsarchitektur, Navigationsfluss und Inhaltsstruktur, um Benutzerfreundlichkeit, SEO-Performance und Lead-Generierung in einem B2B-Medizintechnik-Umfeld zu verbessern.
 - Entwickelte ein Messaging-Framework zur Schärfung des Wertversprechens des Unternehmens, erstellte Marketingbroschüren und weitere Materialien und koordinierte die Messeorganisation einschließlich Standplanung und Werbematerialien.
-- Steuerte funktionsübergreifende Marketing- und Business-Development-Projekte durch Priorisierung, Nachverfolgung von Meilensteinen und Abstimmung mit internen Teams.
+- Steuerung funktionsübergreifende Marketing- und Business-Development-Projekte durch Priorisierung, Nachverfolgung von Meilensteinen und Abstimmung mit internen Teams.
 
 ### Werkstudentin Marketing | AHMETTUERK IT and Strategy Consulting <span class="spacer"></span>Apr 2025 – Aug 2025
 *Stuttgart, Deutschland*<span class="spacer"></span> B2B-Marketing | Social-Media-Management | Marktforschung
 
-- Plante und erstellte B2B-Marketinginhalte für LinkedIn und Instagram, einschließlich Texten, visuellen Inhalten und wiederkehrenden Kampagnenkonzepten, organisiert über strukturierte Excel-Content-Kalender.
-- Verwaltete Social-Media-Kanäle und Marketingmaterialien, indem IT- und Beratungszielgruppen recherchiert sowie Botschaften und Positionierung auf Zielsegmente angepasst wurden, um das Engagement zu steigern.
-- Übersetzte und lokalisierte Webinar- und Marketinginhalte ins Englische, um die internationale Kommunikation und Reichweite des Unternehmens zu unterstützen.
+- Planung und Produktion von B2B-Marketinginhalten für LinkedIn und Instagram, einschließlich Texterstellung, visuellem Content und wiederkehrenden Kampagnenkonzepten, organisiert durch strukturierte Excel-Content-Kalender.
+- Verwaltete Social-Media-Accounts und Marketingmaterialien durch die Recherche von IT- und Beratungszielgruppen sowie die Anpassung von Botschaften und Positionierung an relevante Zielsegmente zur Steigerung des Engagements.
 
 ### Assistenz im Promotionsbüro | Universitätsklinikum Tübingen <span class="spacer"></span>Apr 2024 – Jul 2024
 *Tübingen, Deutschland*<span class="spacer"></span> Organisation | Kommunikation | Administrative Aufgaben
 
-- Koordinierte die Arbeitsabläufe im Promotionsbüro und übernahm die Kommunikation mit Doktorandinnen und Doktoranden, um eine zeitnahe und korrekte Informationsweitergabe sicherzustellen.
-- Pflegte und aktualisierte eine MS-Access-Datenbank sowie ein strukturiertes Ablagesystem, um eine korrekte Dokumentation und den effizienten Abruf von Bewerberakten sicherzustellen.
+- Koordinierung der Abläufe im Doktoratsbüro, Kommunikation mit Doktoranden sowie Pflege von MS-Access-Datenbanken und strukturierten Ablagesystemen.
 
 <div className="vertical-spacer"></div><div className="vertical-spacer"></div>
 
@@ -51,7 +55,7 @@ Masterstudentin im Bereich International Management mit praktischer Erfahrung in
 
 ## Ausbildung
 
-### Hochschule Furtwangen | Master of Science in International Management <span class="spacer"></span>2024 – Heute
+### Hochschule Furtwangen | Master of Science in International Management <span class="spacer"></span>2024 – May 2026
 <br>
 
 ### Middle East Technical University | Bachelor of Science in Economics <span class="spacer"></span>2018 – 2023
@@ -61,19 +65,13 @@ Masterstudentin im Bereich International Management mit praktischer Erfahrung in
 
 ## Kenntnisse
 
-**Marketing & Strategie:**
+<div class="skills-section">
 
-B2B-Marketing, Content Marketing, Social-Media-Management, Employer Branding, Kampagnenanalyse, Marktforschung, Messaging & Positioning, UX-Design, SEO, Lead-Generierung
+**Marketingstrategie & Recherche:** B2B-Marketing, Marktforschung, Botschaften & Positionierung, Markenmanagement, Lead-Generierung, Kampagnenanalyse, CRM-gestütztes E-Mail-Marketing, Marketingkommunikation, UX-Design, Event- & Messekoordination
 
-**Projektmanagement & Kommunikation:** 
+**Content & Social Media:** Content-Marketing, Redaktionelle Content-Erstellung, Social-Media-Management, Social-Media-Strategie, Newsletter-Marketing, Kurzvideoerstellung
+**Tools & Analyse:** WordPress, HubSpot, Canva, CapCut, Excel, Google Analytics, RStudio, SPSS, MS Access 
 
-Funktionsübergreifendes Projektmanagement, Stakeholder-Abstimmung, Event- & Messekoordination, Content-Planung, Prozessdokumentation
+**Sprachen:** Türkisch (Muttersprache), Englisch (Fließend), Deutsch (Fließend)
 
-**Tools & Analytik:**
-
-WordPress, Canva, Excel, Python, R, SPSS, RStudio, MS Access, Datenanalyse, Datenvisualisierung
-
-**Sprachen:**
-Türkisch (Muttersprache), Englisch (Fließend), Deutsch (B2)
-
-<div className="vertical-spacer"></div>
+</div>
